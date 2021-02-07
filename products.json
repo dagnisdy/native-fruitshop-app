@@ -1,0 +1,130 @@
+[
+  {
+    "id": "apples",
+    "name": "Apples",
+    "category": "Fruit",
+    "price": "2.50",
+    "description": "Juicy and extra tasty apples",
+    "image": "fruit_apples.png"
+  },
+  {
+    "id": "bananas",
+    "name": "Bananas",
+    "category": "Fruit",
+    "price": "3.50",
+    "description": "Sweet and soft fresh bananas",
+    "image": "fruit_bananas.png"
+  },
+  {
+    "id": "clementines",
+    "name": "Clementines",
+    "category": "Fruit",
+    "price": "1.80",
+    "description": "Extra juicy orange clementines",
+    "image": "fruit_clementines.png"
+  },
+  {
+    "id": "coconut",
+    "name": "Coconut",
+    "category": "Fruit",
+    "price": "3.00",
+    "description": "Hard to open coconut",
+    "image": "fruit_coconut.png"
+  },
+  {
+    "id": "lemon",
+    "name": "Lemon",
+    "category": "Fruit",
+    "price": "2.50",
+    "description": "Extra juicy and sour lemon",
+    "image": "fruit_lemon.png"
+  },
+  {
+    "id": "mango",
+    "name": "Mango",
+    "category": "Fruit",
+    "price": "4.50",
+    "description": "Incredibly tasty and ripe mango",
+    "image": "fruit_mango.png"
+  },
+  {
+    "id": "pears",
+    "name": "Pears",
+    "category": "Fruit",
+    "price": "2.80",
+    "description": "Juicy and awesome pears",
+    "image": "fruit_pears.png"
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "category": "Fruit",
+    "price": "4.80",
+    "description": "Big, juicy, extra-tasty pineapple",
+    "image": "fruit_pineapple.png"
+  },
+  {
+    "id": "beatroot",
+    "name": "Beatroot",
+    "category": "Vegetables",
+    "price": "1.50",
+    "description": "Juicy and extra tasty beatroot",
+    "image": "veg_beatroot.png"
+  },
+  {
+    "id": "carrots",
+    "name": "Carrots",
+    "category": "Vegetables",
+    "price": "1.50",
+    "description": "Sweet and cruncy fresh carrots",
+    "image": "veg_carrots.png"
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "category": "Vegetables",
+    "price": "1.80",
+    "description": "Extra smelly and spicy garlic",
+    "image": "veg_garlic.png"
+  },
+  {
+    "id": "leak",
+    "name": "Leak",
+    "category": "Vegetables",
+    "price": "1.00",
+    "description": "Grean and healthy leak",
+    "image": "veg_leak.png"
+  },
+  {
+    "id": "mushrooms",
+    "name": "Mushrooms",
+    "category": "Vegetables",
+    "price": "1.50",
+    "description": "Hand-picked brown mushrooms",
+    "image": "veg_mushrooms.png"
+  },
+  {
+    "id": "oninon",
+    "name": "Oninon",
+    "category": "Vegetables",
+    "price": "1.50",
+    "description": "Incredibly tasty and strong onion",
+    "image": "veg_onion.png"
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "category": "Vegetables",
+    "price": "1.80",
+    "description": "Juicy and extra red paprika",
+    "image": "veg_paprika.png"
+  },
+  {
+    "id": "potatoes",
+    "name": "Potatoes",
+    "category": "Vegetables",
+    "price": "0.80",
+    "description": "Big, juicy, extra-tasty potatoes",
+    "image": "veg_potatoes.png"
+  }
+]
