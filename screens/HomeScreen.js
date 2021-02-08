@@ -1,42 +1,43 @@
 import React from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  ScrollView,
-  ImageBackground
-} from 'react-native';
+import { Alert, StyleSheet, Text, View, ScrollView, ImageBackground, Pressable } from 'react-native';
 
 import Banner from '../components/Banner';
 import ProductList from '../components/ProductList';
 
 const Home = ({ navigation }) => {
-  console.log('home nav', navigation);
   return (
     <View style={styles.contents}>
       <ScrollView>
-        <Text style={styles.appTitle}>🍉 DY Fruitshop App</Text>
         <Banner />
-        <View style={styles.shopCategory}>
+        <Pressable
+          style={styles.shopCategory}
+          onPress={() => {
+            navigation.navigate('🍊 Category Page', { thisCat: 'Fruit' });
+          }}
+        >
           <ImageBackground
-            source={require('../components/images/fruit_bananas.png')}
+            source={require('../assets/product_images/fruit_bananas.png')}
             imageStyle={{ borderRadius: 4 }}
             style={{ height: 50, width: 50 }}
           />
           <Text style={styles.shopText}>Shop Fruit</Text>
-        </View>
-        <View style={styles.shopCategory}>
+        </Pressable>
+        <Pressable
+          style={styles.shopCategory}
+          onPress={() => {
+            navigation.navigate('🍊 Category Page', { thisCat: 'Vegetables' });
+          }}
+        >
           <ImageBackground
-            source={require('../components/images/veg_carrots.png')}
+            source={require('../assets/product_images/veg_carrots.png')}
             imageStyle={{ borderRadius: 4 }}
             style={{ height: 50, width: 50 }}
           />
           <Text style={styles.shopText}>Shop Vegies</Text>
-        </View>
+        </Pressable>
         <View>
-          <ProductList />
+          <ProductList featuredOnly={true} />
         </View>
-        
       </ScrollView>
     </View>
   );
